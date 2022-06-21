@@ -303,6 +303,16 @@ Navigation
 .nav {
     text-align: right;
 }
+.nav li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+}
+/* use :last-child pseudo-class selector to identify last li element and reset right margin to 0 */
+/* this ensures any horizontal space between the li element and the edge of its parent element is removed */
+.nav li:last-child{
+    margin-right: 0;
+}
 
 /*
 ==============================
@@ -327,3 +337,20 @@ Home
     color: #a9b2b9
 }
 
+/*
+==============================
+Speakers
+==============================
+*/
+
+.speaker-info {
+    border: 1px solid #dfe2e5;
+    border-radius: 5px;
+    margin-top: 88px;
+    padding: 22px 0;
+    text-align: center;
+}
+
+.speaker {
+    margin-bottom: 44px;
+}
