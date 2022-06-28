@@ -1,0 +1,13 @@
+h1 {
+    color: purple;
+}
+/* use the > to target direct children only */
+section > h2 {
+    color: blue;
+}
+article h2 {
+    color: red;
+}
+section article h2 {
+    color: orange;
+}
