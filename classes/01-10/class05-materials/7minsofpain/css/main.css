@@ -1,0 +1,18 @@
+* {
+    /* tell the browser to ignore the border when calculating the width */
+    box-sizing: border-box;
+}
+
+header, footer {
+    border: 3px solid black;
+    /* tell the header and footer to look to see if anything's floating and situate themselves accordingly */
+    clear: both;
+    height: 100px;
+    width: 100%;
+}
+section {
+    border: 3px solid black;
+    float: left;
+    height: 300px;
+    width: 33.333%;
+}
