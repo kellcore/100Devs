@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    border: 3px solid darkgray;
+    clear: both;
+    height: 100px;
+    width: 100%;
+}
+
+.triple {
+    border: 3px solid darkgray;
+    float: left;
+    height: 300px;
+    width: 33.333%;
+}
+
+.double {
+    border: 3px solid darkgray;
+    float: left;
+    height: 500px;
+    width: 50%;
+}

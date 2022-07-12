@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    border: 3px solid darkslategrey;
+    clear: both;
+    height: 100px;
+    width: 100%;
+}
+
+.banner {
+    border: 3px solid darkslategrey;
+    float: left;
+    height: 300px;
+    width: 100%;
+}
+
+.main {
+    border: 3px solid darkslategrey;
+    float: left;
+    height: 400px;
+    width: 25%;
+}
+
+#larger {
+    width: 75%;
+}
