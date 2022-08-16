@@ -26,3 +26,12 @@ header, footer {
 #larger {
     width: 75%;
 }
+
+@media screen and (max-width: 400px) {
+    .banner {
+        height: 150px;
+    }
+    .main, #larger {
+        width: 100%;
+    }
+}

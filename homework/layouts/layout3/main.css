@@ -19,3 +19,12 @@ section {
 .twenty {
     width: 20%;
 }
+
+@media screen and (max-width: 400px) {
+    section {
+        width: 100%;
+    }
+    .twenty {
+        display: none;
+    }
+}

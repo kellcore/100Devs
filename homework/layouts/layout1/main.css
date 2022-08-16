@@ -22,3 +22,12 @@ header, footer {
     height: 500px;
     width: 50%;
 }
+
+@media screen and (max-width: 400px) {
+    .triple, .double {
+        width: 100%;
+    }
+    .double {
+        height: 300px;
+    }
+}
