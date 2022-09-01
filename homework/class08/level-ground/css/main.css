@@ -1,0 +1,154 @@
+/* clearfix */
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/* base styles */
+
+* {
+    font: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 300;
+}
+
+/* layout */
+
+header, .hero {
+    background: #66778b;
+    clear: both;
+    color: #f1f1f1;
+    height: 400px;
+}
+
+nav *{
+    float: left;
+    display: block;
+    width: 100%;
+    margin: 5px;
+}
+
+nav ul li {
+    width: 33.33%;
+}
+
+.nav-links, .nav-logo, .link-button {
+    width: 15%;
+    padding: 5px;
+}
+
+.nav-link-button, .img-index {
+    background: #dadee2;
+}
+
+.nav-link-button {
+    border-radius: 5px;
+    color: #66778b;
+    width: 10%;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+.hero h4 {
+    margin: 50px 0;
+    padding: 0 100px;
+    font-size: 1em;
+}
+
+.play-button *{
+    width: 50px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+main > section {
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.why, .volunteer {
+    margin-top: 250px;
+    clear: both;
+}
+
+.why h2, .volunteer h2 {
+    font-size: 3em;
+}
+
+.why p, .volunteer p {
+    padding: 50px;
+}
+
+.img-placeholder {
+    width: 50%;
+    height: 250px;
+    float: left;
+    margin-top: 50px;
+}
+
+.img-box {
+    height: 250px;
+    width: 500px;
+    background: #66778b;
+    margin: 0 auto;
+}
+
+.img-placeholder h3, .img-placeholder p {
+    margin: 25px 0;
+}
+
+.img-placeholder h3 {
+    font-size: 2em;
+}
+
+.link-button {
+    color: #161f2a;
+    font-weight: 700;
+    border: 2px solid #b9bbbc;
+    padding: 10px;
+}
+
+footer {
+    background: #161f2a;
+}
+
+.footer-nav, .footer-address {
+    background: #161f2a;
+    width: 50%;
+    height: 100px;
+    float: left;
+    display: block;
+}
+
+.footer-address p {
+    color: #dadee2;
+}
+
+/* media queries */
